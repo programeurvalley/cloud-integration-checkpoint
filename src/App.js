@@ -212,13 +212,22 @@ function App() {
             </div>
     </div>
 
+    <div id="google-map-integration" >
+      <div class="row" >
+        <div class="col-md-11"   id="google-map-win">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25583.920794184458!2d3.152620970629501!3d36.722799016041705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e53646cecf68d%3A0x66b405380c80bbef!2sH%C3%B4tel%20Dar%20El%20Aaz%20-%20Bab%20Ezzouar!5e0!3m2!1sfr!2sdz!4v1674566360046!5m2!1sfr!2sdz" width="1000" height="450" style={{ border:0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-1" >
+
+        </div>
+      </div>
+    </div>
+
     <div id="contact">
       <div class="row">
         <div class="col-md-4">
-
         </div>
         <div class="col-md-3">
-          
         </div>
         <div class="col-md-5">
           <form class="contact-form">
@@ -229,7 +238,6 @@ function App() {
             </textarea>
             <button type="submit" class="tm-btn-primary btn-special" >SEND MESSAGE NOW</button>
           </form>
-          
         </div>
       </div>
     </div>
